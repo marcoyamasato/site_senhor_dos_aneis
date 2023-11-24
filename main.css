@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bilbo';
+    color: gold;
+}
+
+.container{
+    display: inline;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+
+body{
+    background-color: rgb(151, 214, 151);
+}
+
+header{
+    background-color: rgb(42, 121, 42);
+}
+
+header h1{
+    font-size: 50px;
+}
+
+.list-links li{
+    display: inline;
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.list-links a{
+    text-decoration: none;
+    color: rgb(209, 185, 52);
+}
+
+
+/**************/
+
+article .container{
+    display: flex;
+    font-family: 'Bilbo';
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#filmes img,
+#personagens img{
+    height: 450px;
+    border: black;
+    border-style: double;
+}
+
+#img_retorno_rei{
+    height: 500px;
+}
+
+
+.textos_filme1,
+.textos_filme3{
+    margin-left: 15px;
+}
+
+.textos_filme2{
+    margin-right: 15px;
+}
+
+
+article h2{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+p{
+    margin-bottom: 20px;
+    font-family: "Bilbo";
+}
+
+#personagens .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#personagens article{
+    margin-left: 10px;
+}
+
+#personagens img{
+    width: 350px;
+}
+
+#personagens h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Bilbo";
+    font-size: 50px;
+}
+
+#personagens p{
+    font-size: 24px;
+}
+
+.container ul li{
+    margin-top: 10px;
+    font-family: "Bilbo";
+    font-size: 30px;
+}
+
+#form_usuario .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#form_usuario textarea{
+    width: 500px;
+    height: 150px;
+    resize: none;
+    font-family: "Bilbo";
+    font-size: 30px;
+    margin-left: 80px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+#form_usuario textarea:focus{
+    background-color: rgb(105, 207, 105);
+}
+
+#form_usuario button img{
+    height: 82px;
+    border-radius: round;
+    background-color: inherit;
+}
+
+.form_usuario ul li{
+    list-style-type: none;
+}
+
+
+.form_button_submit button{
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 85px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.form_usuario h2{
+    margin-left: 80px;
+}
+
+.form_usuario p{
+    font-size: 20px;
+}
